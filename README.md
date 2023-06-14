@@ -6,8 +6,8 @@ def greet(bot_name, birth_year):
 
 def remind_name():
     print('Please, remind me your name.')
-    names = input()
-    print('What a great name you have, ' + names + '!')
+    name = input()
+    print('What a great name you have, ' + name + '!')
 
 
 def guess_age():
@@ -56,7 +56,7 @@ def test():
 def end():
     print('Congratulations, have a nice day!')
 
-greet('Robocops', '2018')
+greet('Robocop', '2018')
 remind_name()
 guess_age()
 count()
