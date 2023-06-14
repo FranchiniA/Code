@@ -56,7 +56,7 @@ def test():
 def end():
     print('Congratulations, have a nice day!')
 
-greet('Robocop', '2018')
+greet('Robocops', '2018')
 remind_name()
 guess_age()
 count()
